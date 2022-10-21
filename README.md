@@ -8,6 +8,8 @@ It is therefore recommended to connect to deployed instances using the [Cloud SQ
 
 _Note_: If you intend to have many concurrent connections it is recommended to bump the `tier` to at least a `db-g1-small` if not bigger as the default `db-f1-micro` only allows for 20 concurrent connections with a Postgres database.
 
+_Note_: The deployment of a Cloud SQL database can take upwards of 20 minutes as default - the timeouts are set to 60m for creation and deletion to allow for plenty of time.
+
 ## Usage
 
 ```hcl

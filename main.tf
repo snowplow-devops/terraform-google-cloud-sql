@@ -38,6 +38,12 @@ resource "google_sql_database_instance" "instance" {
 
     user_labels = var.labels
   }
+
+  timeouts {
+    create = "60m"
+    update = "30m"
+    delete = "60m"
+  }
 }
 
 resource "google_sql_database" "db" {
