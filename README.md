@@ -29,7 +29,7 @@ module "instance" {
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.15 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0.0 |
 | <a name="requirement_google"></a> [google](#requirement\_google) | >= 3.44.0 |
 | <a name="requirement_random"></a> [random](#requirement\_random) | >= 3 |
 
@@ -80,7 +80,7 @@ No modules.
 
 # Copyright and license
 
-The Terraform Google CloudSQL project is Copyright 2021-2021 Snowplow Analytics Ltd.
+The Terraform Google CloudSQL project is Copyright 2021-2022 Snowplow Analytics Ltd.
 
 Licensed under the [Apache License, Version 2.0][license] (the "License");
 you may not use this software except in compliance with the License.
