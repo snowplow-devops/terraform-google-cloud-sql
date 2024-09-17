@@ -56,3 +56,9 @@ variable "labels" {
   default     = {}
   type        = map(string)
 }
+
+variable "ssl_mode" {
+  description = "Specify how SSL connection should be enforced in DB connections"
+  default     = "ALLOW_UNENCRYPTED_AND_ENCRYPTED"
+  type        = string
+}
