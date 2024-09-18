@@ -1,3 +1,7 @@
+Version 0.3.1 (2024-09-18)
+--------------------------
+Use ssl_mode instead of require_ssl (#6)
+
 Version 0.3.0 (2023-07-25)
 --------------------------
 Update to Snowplow Community Licence (#4)
