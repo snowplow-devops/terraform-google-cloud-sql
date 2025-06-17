@@ -1,3 +1,8 @@
+Version 0.4.0 (2025-06-17)
+--------------------------
+Bump Postgres to v16.9
+Bump google provider to >= 6
+
 Version 0.3.1 (2024-09-18)
 --------------------------
 Use ssl_mode instead of require_ssl (#6)

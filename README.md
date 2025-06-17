@@ -30,14 +30,14 @@ module "instance" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0.0 |
-| <a name="requirement_google"></a> [google](#requirement\_google) | >= 3.44.0 |
+| <a name="requirement_google"></a> [google](#requirement\_google) | >= 6 |
 | <a name="requirement_random"></a> [random](#requirement\_random) | >= 3 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_google"></a> [google](#provider\_google) | >= 3.44.0 |
+| <a name="provider_google"></a> [google](#provider\_google) | >= 6 |
 | <a name="provider_random"></a> [random](#provider\_random) | >= 3 |
 
 ## Modules
@@ -63,7 +63,7 @@ No modules.
 | <a name="input_name"></a> [name](#input\_name) | A name which will be pre-pended to the resources created | `string` | n/a | yes |
 | <a name="input_region"></a> [region](#input\_region) | The name of the region to deploy within | `string` | n/a | yes |
 | <a name="input_authorized_networks"></a> [authorized\_networks](#input\_authorized\_networks) | The list of CIDR ranges to allow access to the instance over | <pre>list(object({<br>    name  = string<br>    value = string<br>  }))</pre> | `[]` | no |
-| <a name="input_database_version"></a> [database\_version](#input\_database\_version) | The database version to use (https://cloud.google.com/sql/docs/db-versions) | `string` | `"POSTGRES_9_6"` | no |
+| <a name="input_database_version"></a> [database\_version](#input\_database\_version) | The database version to use (https://cloud.google.com/sql/docs/db-versions) | `string` | `"POSTGRES_16_9"` | no |
 | <a name="input_deletion_protection"></a> [deletion\_protection](#input\_deletion\_protection) | Whether to protect the instance from accidental termination | `bool` | `false` | no |
 | <a name="input_labels"></a> [labels](#input\_labels) | The labels to append to this resource | `map(string)` | `{}` | no |
 | <a name="input_tier"></a> [tier](#input\_tier) | The tier of database to deploy | `string` | `"db-f1-micro"` | no |
