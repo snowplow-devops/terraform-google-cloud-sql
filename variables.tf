@@ -11,7 +11,7 @@ variable "region" {
 variable "database_version" {
   description = "The database version to use (https://cloud.google.com/sql/docs/db-versions)"
   type        = string
-  default     = "POSTGRES_16_9"
+  default     = "POSTGRES_16"
 }
 
 variable "deletion_protection" {
@@ -61,4 +61,10 @@ variable "ssl_mode" {
   description = "Specify how SSL connection should be enforced in DB connections"
   default     = "ALLOW_UNENCRYPTED_AND_ENCRYPTED"
   type        = string
+}
+
+variable "edition" {
+  description = "The edition of database to deploy"
+  type        = string
+  default     = "ENTERPRISE"
 }

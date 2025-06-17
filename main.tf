@@ -13,6 +13,7 @@ resource "google_sql_database_instance" "instance" {
   settings {
     tier              = var.tier
     availability_type = "REGIONAL"
+    edition           = var.edition
 
     disk_autoresize = true
     disk_type       = "PD_SSD"
