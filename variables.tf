@@ -11,7 +11,7 @@ variable "region" {
 variable "database_version" {
   description = "The database version to use (https://cloud.google.com/sql/docs/db-versions)"
   type        = string
-  default     = "POSTGRES_9_6"
+  default     = "POSTGRES_16_9"
 }
 
 variable "deletion_protection" {
