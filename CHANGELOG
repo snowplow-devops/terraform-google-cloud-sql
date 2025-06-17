@@ -1,3 +1,7 @@
+Version 0.4.1 (2025-06-17)
+--------------------------
+Ensure we can switch database editions
+
 Version 0.4.0 (2025-06-17)
 --------------------------
 Bump Postgres to v16.9
